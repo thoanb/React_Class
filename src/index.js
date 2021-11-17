@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// render: ham cua react giup tao UI
+// cos 2 tham so: noi dung UI, the se duoc them noi dung
+// <App /> thẻ được dev tạo ra, component
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 
